@@ -1,0 +1,87 @@
+.abiturienti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.abiturienti .component {
+  width: 343px;
+  text-align: center;
+}
+
+.abiturienti .component img {
+  width: 343px;
+  height: 292px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.abiturienti .component .txt {
+  color: #000000;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #fb2929;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: #b00000;
+}
+
+.fulltext {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto; 
+  padding: 20px;
+  text-align: left;
+  color: #333333;
+}
+
+.fulltext h1 {
+  font-size: 70px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fulltext img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 80px;
+}
+
+.fulltext p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .fulltext h1 {
+    font-size: 2em;
+  }
+
+  .fulltext p {
+    font-size: 1em;
+  }
+}

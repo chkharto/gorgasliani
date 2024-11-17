@@ -1,0 +1,84 @@
+/* header.css */
+
+.nav {
+  background-color: #090808;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 108px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #f0f0f0;
+}
+
+.nav-main button {
+  background-color: #f0f0f0;
+  color: #090808;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-main button:hover {
+  background-color: #090808;
+  color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .nav-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu li:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav-main button {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,124 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.head {
+  text-align: center;
+  margin-top: 32px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.head h1 {
+  margin-bottom: 32px;
+  font-size: 70px;
+}
+
+.head-ln {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.head-ln img {
+  width: 502px;
+  height: 354px;
+  margin-right: 20px;
+}
+
+.head-ln-tx {
+  max-width: 600px;
+  text-align: left;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-in-tx-txt {
+  font-size: 24px;
+}
+
+.learn-more {
+  background-color: #fb2929;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  align-self: center; /* Centers the button horizontally */
+}
+
+.learn-more:hover {
+  background-color: #333333;
+}
+
+.head-infos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.head-info-item {
+  background-color: #D9D9D9;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(50% - 40px);
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure that the button goes to the bottom */
+}
+
+.head-info-item p {
+  margin: 0 0 10px;
+}
+
+.head-info-item .learn-more {
+  margin-top: auto;
+}
+
+.home-pages {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto; 
+  padding: 20px;
+  text-align: left;
+  color: #000;
+}
+
+.home-pages h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.home-pages div img {
+  text-align: center;
+  width: 1200px;
+  height: 900px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home-pages div p {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.home-pages .second-div {
+  margin-top: 70px;
+}
+
+.tamar-span {
+  font-size: 30px;
+  font-weight: 600;
+
+}
