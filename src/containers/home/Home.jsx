@@ -27,7 +27,7 @@ const Home = ({ onReset }) => {
 
   React.useEffect(() => {
     if (onReset) {
-      // Reset state when `onReset` is triggered
+      
       setCheck(true);
       setIndex(null);
     }
