@@ -51,7 +51,7 @@ function MainContent({
   return (
     <div className="App">
       
-      {location.pathname !== "/world-history" && (
+      {location.pathname !== "/gorgasliani/world-history" && (
         <Header
           onHomeClick={onHomeClick}
           onAbiturientiClick={onAbiturientiClick}
@@ -59,16 +59,16 @@ function MainContent({
       )}
 
       <Routes>
-        <Route path="/" element={<Home onReset={resetHome} />} />
-        <Route path="/historiography" element={<Historiography />} />
-        <Route path="/world-history" element={<WorldHistory />} />
-        <Route path="/kings" element={<Kings />} />
+        <Route path="/gorgasliani/" element={<Home onReset={resetHome} />} />
+        <Route path="/gorgasliani/historiography" element={<Historiography />} />
+        <Route path="/gorgasliani/world-history" element={<WorldHistory />} />
+        <Route path="/gorgasliani/kings" element={<Kings />} />
         <Route
-          path="/abiturienti"
+          path="/gorgasliani/abiturienti"
           element={<Abiturienti onReset={resetAbiturienti} />}
         />
       </Routes>
-      {location.pathname !== "/world-history" && (
+      {location.pathname !== "/gorgasliani/world-history" && (
         <Footer />
       )}
     </div>
