@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gorgasliani/static/css/main.259f496e.css",
-    "main.js": "/gorgasliani/static/js/main.b6b02c1a.js",
+    "main.js": "/gorgasliani/static/js/main.d261ded5.js",
     "reactPlayerYouTube.js": "/gorgasliani/static/js/reactPlayerYouTube.f0594079.chunk.js",
     "reactPlayerSoundCloud.js": "/gorgasliani/static/js/reactPlayerSoundCloud.a1d7d48b.chunk.js",
     "reactPlayerVimeo.js": "/gorgasliani/static/js/reactPlayerVimeo.0a799540.chunk.js",
@@ -51,7 +51,7 @@
     "static/media/bagrat.jpg": "/gorgasliani/static/media/bagrat.3c57aa2c97ac72803433.jpg",
     "index.html": "/gorgasliani/index.html",
     "main.259f496e.css.map": "/gorgasliani/static/css/main.259f496e.css.map",
-    "main.b6b02c1a.js.map": "/gorgasliani/static/js/main.b6b02c1a.js.map",
+    "main.d261ded5.js.map": "/gorgasliani/static/js/main.d261ded5.js.map",
     "reactPlayerYouTube.f0594079.chunk.js.map": "/gorgasliani/static/js/reactPlayerYouTube.f0594079.chunk.js.map",
     "reactPlayerSoundCloud.a1d7d48b.chunk.js.map": "/gorgasliani/static/js/reactPlayerSoundCloud.a1d7d48b.chunk.js.map",
     "reactPlayerVimeo.0a799540.chunk.js.map": "/gorgasliani/static/js/reactPlayerVimeo.0a799540.chunk.js.map",
@@ -69,6 +69,6 @@
   },
   "entrypoints": [
     "static/css/main.259f496e.css",
-    "static/js/main.b6b02c1a.js"
+    "static/js/main.d261ded5.js"
   ]
 }
