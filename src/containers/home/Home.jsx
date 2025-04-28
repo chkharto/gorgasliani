@@ -38,7 +38,7 @@ const Home = ({ onReset }) => {
       {check ? (
         <div className="home">
           <div className="head">
-            <h1>Lorem ipsum</h1>
+            <h1>დამოუკიდებლობის ფასი</h1>
             <div className="head-ln">
               <img src={zviadi} alt="Zviadi" />
               <div className="head-ln-tx">
