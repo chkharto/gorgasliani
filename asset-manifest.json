@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gorgasliani/static/css/main.14a13263.css",
+    "main.css": "/gorgasliani/static/css/main.4f734a42.css",
     "main.js": "/gorgasliani/static/js/main.9edf5131.js",
     "reactPlayerYouTube.js": "/gorgasliani/static/js/reactPlayerYouTube.f0594079.chunk.js",
     "reactPlayerSoundCloud.js": "/gorgasliani/static/js/reactPlayerSoundCloud.a1d7d48b.chunk.js",
@@ -54,7 +54,7 @@
     "static/media/rome3.png": "/gorgasliani/static/media/rome3.8500f508d43da174c18a.png",
     "static/media/bagrat.jpg": "/gorgasliani/static/media/bagrat.3c57aa2c97ac72803433.jpg",
     "index.html": "/gorgasliani/index.html",
-    "main.14a13263.css.map": "/gorgasliani/static/css/main.14a13263.css.map",
+    "main.4f734a42.css.map": "/gorgasliani/static/css/main.4f734a42.css.map",
     "main.9edf5131.js.map": "/gorgasliani/static/js/main.9edf5131.js.map",
     "reactPlayerYouTube.f0594079.chunk.js.map": "/gorgasliani/static/js/reactPlayerYouTube.f0594079.chunk.js.map",
     "reactPlayerSoundCloud.a1d7d48b.chunk.js.map": "/gorgasliani/static/js/reactPlayerSoundCloud.a1d7d48b.chunk.js.map",
@@ -72,7 +72,7 @@
     "reactPlayerPreview.3ce76ae7.chunk.js.map": "/gorgasliani/static/js/reactPlayerPreview.3ce76ae7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a13263.css",
+    "static/css/main.4f734a42.css",
     "static/js/main.9edf5131.js"
   ]
 }
