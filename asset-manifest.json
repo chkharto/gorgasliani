@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gorgasliani/static/css/main.259f496e.css",
-    "main.js": "/gorgasliani/static/js/main.b6b02c1a.js",
+    "main.css": "/gorgasliani/static/css/main.14a13263.css",
+    "main.js": "/gorgasliani/static/js/main.9edf5131.js",
     "reactPlayerYouTube.js": "/gorgasliani/static/js/reactPlayerYouTube.f0594079.chunk.js",
     "reactPlayerSoundCloud.js": "/gorgasliani/static/js/reactPlayerSoundCloud.a1d7d48b.chunk.js",
     "reactPlayerVimeo.js": "/gorgasliani/static/js/reactPlayerVimeo.0a799540.chunk.js",
@@ -18,6 +18,10 @@
     "reactPlayerPreview.js": "/gorgasliani/static/js/reactPlayerPreview.3ce76ae7.chunk.js",
     "static/media/revolution.png": "/gorgasliani/static/media/revolution.4eb2c724e8a245834b9d.png",
     "static/media/ww1.png": "/gorgasliani/static/media/ww1.f39ddf9294a05296a8d8.png",
+    "static/media/revolutionpage.png": "/gorgasliani/static/media/revolutionpage.96ff8489379bc784c65c.png",
+    "static/media/firstworldwar.png": "/gorgasliani/static/media/firstworldwar.c3f99aa91a62e0f7a513.png",
+    "static/media/romeempire.png": "/gorgasliani/static/media/romeempire.9713d12c012e5d6f4c2e.png",
+    "static/media/napoleonpage.png": "/gorgasliani/static/media/napoleonpage.ec615e507d7617e42f82.png",
     "static/media/davit.png": "/gorgasliani/static/media/davit.9f3da74b5616aa5d29dd.png",
     "static/media/rome.png": "/gorgasliani/static/media/rome.af9df29ae407a4a1cfd9.png",
     "static/media/napoleon.png": "/gorgasliani/static/media/napoleon.734a02a1621f84618b7f.png",
@@ -50,8 +54,8 @@
     "static/media/rome3.png": "/gorgasliani/static/media/rome3.8500f508d43da174c18a.png",
     "static/media/bagrat.jpg": "/gorgasliani/static/media/bagrat.3c57aa2c97ac72803433.jpg",
     "index.html": "/gorgasliani/index.html",
-    "main.259f496e.css.map": "/gorgasliani/static/css/main.259f496e.css.map",
-    "main.b6b02c1a.js.map": "/gorgasliani/static/js/main.b6b02c1a.js.map",
+    "main.14a13263.css.map": "/gorgasliani/static/css/main.14a13263.css.map",
+    "main.9edf5131.js.map": "/gorgasliani/static/js/main.9edf5131.js.map",
     "reactPlayerYouTube.f0594079.chunk.js.map": "/gorgasliani/static/js/reactPlayerYouTube.f0594079.chunk.js.map",
     "reactPlayerSoundCloud.a1d7d48b.chunk.js.map": "/gorgasliani/static/js/reactPlayerSoundCloud.a1d7d48b.chunk.js.map",
     "reactPlayerVimeo.0a799540.chunk.js.map": "/gorgasliani/static/js/reactPlayerVimeo.0a799540.chunk.js.map",
@@ -68,7 +72,7 @@
     "reactPlayerPreview.3ce76ae7.chunk.js.map": "/gorgasliani/static/js/reactPlayerPreview.3ce76ae7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.259f496e.css",
-    "static/js/main.b6b02c1a.js"
+    "static/css/main.14a13263.css",
+    "static/js/main.9edf5131.js"
   ]
 }
