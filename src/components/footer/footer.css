@@ -1,0 +1,18 @@
+.footer {
+    background-color: #fff;
+    display: flex;
+    margin-top: 32px;
+}
+
+.footer-nav {
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav ul li a {
+    color: #000;
+}
+
+.footer-nav ul li a:hover {
+    color: #858585;
+}

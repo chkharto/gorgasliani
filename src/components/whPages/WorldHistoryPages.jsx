@@ -1,13 +1,15 @@
 import React from "react";
 
-const WorldHistoryPages = ({ title, description, images }) => {
+const WorldHistoryPages = ({ title, description, images, handleReadMore }) => {
   return (
     <div className="content">
       {/* Left Side: Text */}
       <div className="text-section">
         <h1>{title}</h1>
         <p>{description}</p>
-        <button className="read-more-btn">იხილეთ მეტი...</button>
+        <button className="read-more-btn" onClick={handleReadMore}>
+          იხილეთ მეტი...
+        </button>
       </div>
 
       {/* Right Side: Images */}

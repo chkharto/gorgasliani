@@ -39,20 +39,22 @@
 }
 
 .menu a:hover {
-  color: #f0f0f0;
+  color: #bebebe;
 }
 
-.nav-main button {
+.login-button {
   background-color: #f0f0f0;
   color: #090808;
-  border: none;
   padding: 10px 20px;
   font-size: 16px;
+  text-decoration: none;
+  border: none;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
 }
 
-.nav-main button:hover {
+.login-button:hover {
   background-color: #090808;
   color: #f0f0f0;
 }
@@ -77,7 +79,7 @@
     margin-bottom: 0;
   }
 
-  .nav-main button {
+  .login-button {
     align-self: flex-end;
     margin-top: 10px;
   }

@@ -27,7 +27,7 @@ const Header = ({ onHomeClick, onAbiturientiClick }) => {
             </Link>
           </li>
         </ul>
-        <button>შესვლა</button>
+        <Link to="/auth" className="login-button">შესვლა</Link>
       </div>
     </div>
   );

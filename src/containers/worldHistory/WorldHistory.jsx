@@ -27,6 +27,7 @@ const pages = [
       "პირველი მსოფლიო ომი (1914-1918) იყო დიდი კონფლიქტი, რომელშიც მრავალი ქვეყანა ჩაერთო, იწვევს ევროპის პოლიტიკური რუკის გადანაწილებას.",
     images: [ww11, ww12, ww13],
     backgroundImage: ww1,
+    route: "first-world-war",
   },
   {
     title: "რომის იმპერია",
@@ -34,6 +35,7 @@ const pages = [
       "რომის იმპერია ათასწლეულზე მეტი ხნის განმავლობაში მართავდა ევროპას და საბოლოოდ დაეცა 476 წელს.",
     images: [rome1, rome2, rome3],
     backgroundImage: rome,
+    route: "rome",
   },
   {
     title: "ინდუსტრიული რევოლუცია",
@@ -41,6 +43,7 @@ const pages = [
       "ინდუსტრიული რევოლუცია XVIII-XIX საუკუნეებში გარდაქმნა მსოფლიო ეკონომიკა, წარმოება და ტრანსპორტი, გამოიწვია ურბანიზაცია და ტექნოლოგიური პროგრესი.",
     images: [revolution1, revolution2, revolution3],
     backgroundImage: revolution,
+    route: "revolution",
   },
   {
     title: "ნაპოლეონი",
@@ -48,6 +51,7 @@ const pages = [
       "ნაპოლეონ ბონაპარტი საფრანგეთის რევოლუციის შემდეგ აღზევდა და გახდა იმპერატორი, თუმცა დამარცხდა ვატერლოოს ბრძოლაში.",
     images: [napoleon1, napoleon2, napoleon3],
     backgroundImage: napoleon,
+    route: "napoleon",
   },
 ];
 
@@ -73,20 +77,22 @@ const WorldHistory = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="overlay"></div>
       <button className="home-btn" onClick={() => navigate("/")}>
         <FaHome />
       </button>
+
       <button className="nav-btn left" onClick={prevPage}>
         <FaArrowLeft />
       </button>
       <button className="nav-btn right" onClick={nextPage}>
         <FaArrowRight />
       </button>
+
       <WorldHistoryPages
         title={pages[currentPage].title}
         description={pages[currentPage].description}
         images={pages[currentPage].images}
+        handleReadMore={() => navigate(`/world-history/${pages[currentPage].route}`)}
       />
     </div>
   );
